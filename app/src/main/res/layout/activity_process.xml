@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView android:layout_width="fill_parent" android:id="@+id/FileLabel"
+        android:text="File: " android:layout_height="wrap_content"
+        android:layout_weight="0.23"></TextView>
+
+    <TextView android:layout_width="fill_parent" android:id="@+id/ProcessInfo"
+        android:text="Process info: " android:layout_height="wrap_content"
+        android:layout_weight="0.23"></TextView>
+
+    <ProgressBar
+        android:id="@+id/progBar" style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.01" />
+
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<!--	<com.google.ads.AdView android:id="@+id/adView"
+		android:layout_alignParentBottom="true" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" ads:adUnitId="a14e20627b1a1c6"
+		ads:adSize="BANNER" ads:loadAdOnCreate="false" /> -->
+	<Button android:text="Load File" android:layout_alignParentTop="true"
+		android:id="@+id/loadButton" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></Button>
+	<TextView android:id="@+id/fileText" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="FileName"
+		android:layout_below="@+id/loadButton" />
+	<TableRow android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="50dip"
+		android:id="@+id/tableRow1" android:layout_below="@+id/tableRowText"
+		android:visibility="visible" android:layout_gravity="fill_horizontal|bottom">
+
+		<Button android:id="@+id/encryptbutton" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="Encrypt file"
+			android:enabled='false' android:layout_weight="1" />
+		<Button android:id="@+id/decryptbutton" android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:text="Decrypt file"
+			android:enabled='false' android:layout_weight="1" />
+	</TableRow>
+
+	<TextView android:layout_width="fill_parent" android:id="@+id/ManageKey"
+		android:text="Manage key file" android:layout_height="wrap_content"></TextView>
+
+	<TableRow android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="50dip"
+		android:id="@+id/tableRow3" android:layout_below="@+id/tableRowText"
+		android:visibility="visible" android:layout_gravity="fill_horizontal|bottom">
+		<Button android:id="@+id/create_keyfile"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="Create keyfile" android:enabled='true' android:layout_weight="1" />
+		<Button android:id="@+id/open_keyfile"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="Open keyfile" android:enabled='true' android:layout_weight="1" />
+	</TableRow>
+
+	<TextView android:layout_width="fill_parent" android:id="@+id/advancedusSize"
+		android:text="Advanced Users Only:" android:layout_height="wrap_content"></TextView>
+
+	<TextView android:layout_width="fill_parent" android:id="@+id/MD5sum"
+		android:text="" android:layout_height="wrap_content"></TextView>
+
+	<TextView android:layout_width="fill_parent" android:id="@+id/LoadKeyFileText"
+		android:text="Please create new or open Key file to store and decrypt passwords automaticaly" android:layout_height="wrap_content"></TextView>
+
+
+	<!--	<TextView android:layout_width="fill_parent" android:id="@+id/LoadKeys"
+            android:text="Loads" android:layout_height="wrap_content"></TextView>
+
+        <Button android:id="@+id/decrypto"
+            android:layout_height="wrap_content" android:layout_width="wrap_content"
+            android:text="show decrypt" android:enabled='true' /> -->
+</LinearLayout>

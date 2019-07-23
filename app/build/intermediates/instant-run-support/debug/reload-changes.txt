@@ -1,0 +1,8 @@
+CHANGED,/home/ivailo/android/src/Easy_File_Encrypt/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/hunterdavis/easyfileencrypt/R$styleable$override.class
+CHANGED,/home/ivailo/android/src/Easy_File_Encrypt/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
+CHANGED,/home/ivailo/android/src/Easy_File_Encrypt/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/hunterdavis/easyfileencrypt/R$style$override.class
+CHANGED,/home/ivailo/android/src/Easy_File_Encrypt/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/hunterdavis/easyfileencrypt/R$id$override.class
+CHANGED,/home/ivailo/android/src/Easy_File_Encrypt/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/hunterdavis/easyfileencrypt/R$layout$override.class
+CHANGED,/home/ivailo/android/src/Easy_File_Encrypt/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/android/support/v7/appcompat/R$id$override.class
+CHANGED,/home/ivailo/android/src/Easy_File_Encrypt/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/hunterdavis/easyfileencrypt/R$string$override.class
+CHANGED,/home/ivailo/android/src/Easy_File_Encrypt/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/hunterdavis/easyfileencrypt/R$integer$override.class
